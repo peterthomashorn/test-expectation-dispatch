@@ -1,6 +1,6 @@
 import XCTest
 
-extension XCTestCase {
+public extension XCTestCase {
     ///
     /// Dispatches fulfillments of `XCTestExpectation` to the main dispatch queue and waits for them.
     ///
